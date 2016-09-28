@@ -21,6 +21,10 @@ namespace List
             set{ next = value;}
             
         }
+        public Element (T data)
+        {
+            this.data = data;
+        }
     }
 
 }
